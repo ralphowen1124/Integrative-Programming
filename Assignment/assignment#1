@@ -1,0 +1,47 @@
+<?php
+// Example 1: Simple decision with if statement
+$hasConcertTicket = true;
+
+if ($hasConcertTicket) {
+    echo "Great! You’ve got a ticket. Welcome to the concert! 🎶<br>";
+}
+
+// Example 2: if...else statement
+$isFeelingHungry = false;
+
+if ($isFeelingHungry) {
+    echo "Looks like you’re hungry. Let’s grab some food! 🍔<br>";
+} else {
+    echo "Not hungry yet? No problem, maybe later! 😊<br>";
+}
+
+// Example 3: if...elseif...else statement (grading system)
+$studentScore = 72;
+
+if ($studentScore >= 90) {
+    echo "Outstanding performance! You aced the test! 🏆<br>";
+} elseif ($studentScore >= 75) {
+    echo "Nice work! You passed with a good score. ✅<br>";
+} elseif ($studentScore >= 50) {
+    echo "You made it through, but there’s still room to improve. 📘<br>";
+} else {
+    echo "Oh no! You didn’t pass this time. Keep studying and try again! 📚<br>";
+}
+
+// Example 4: switch statement (favorite color)
+$myFavoriteColor = "blue";
+
+switch ($myFavoriteColor) {
+    case "red":
+        echo "Red is bold and full of passion! 🔥<br>";
+        break;
+    case "blue":
+        echo "Blue feels calm, peaceful, and refreshing. 🌊<br>";
+        break;
+    case "green":
+        echo "Green is all about nature, balance, and growth. 🌱<br>";
+        break;
+    default:
+        echo "That’s a unique choice of color! 🎨<br>";
+}
+?>
