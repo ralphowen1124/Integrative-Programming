@@ -1,0 +1,17 @@
+1. readyState vs. status
+
+readyState: tells you what's happening on the client-side (your browser).
+status: tells you what happened on the server-side.
+Common statuses include:
+200 (OK): The request was successfull
+404 (Not Found): The requested resource couldn't be found.
+500 (Internal Server Error): Something went wrong on the server.
+
+2. How to Make the Request Asynchronous
+
+You make the request asynchronous by setting the third parameter of the open() method to true.
+
+3. Why Asynchronous Communication is Recommended
+
+Asynchronous communication is recommended almost exclusively for one critical reason: User Experience (UX). 
+When you make a synchronous request (by setting open()'s third parameter to false), the browser's main thread stops and waits.
