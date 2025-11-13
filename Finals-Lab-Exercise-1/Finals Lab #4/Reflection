@@ -1,0 +1,9 @@
+What are the basic rules of XML you applied in this lab?
+-It must have a one root element, every tag that will apply must have a closing tag. All tags are sensitive, the opening and closing tag must have the same capitalization. And it can't be overlap; the first one to open, it must be the first one to close. If there's any values, it must be double quoted.
+
+Why does XML need a single root element?
+- It function as the main container for all other elements. It certify the document has a clear, organized structure, and it allows the program to read and process the data accurately. Without one root element, the XML would be invalid and could not be properly parsed.
+
+How does XML ensure interoperability?
+- XML makes data sharing easy between different systems because it uses a standard text format that all programs can understand.
+By following simple rules for structure and tags, XML lets information be read and used by different software, no matter what platform or device they’re on.
