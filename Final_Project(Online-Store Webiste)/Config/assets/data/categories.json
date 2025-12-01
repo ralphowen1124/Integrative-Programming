@@ -1,0 +1,44 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "Laptops",
+            "slug": "laptops",
+            "description": "High-performance laptops for work and gaming",
+            "image": "laptops-category.jpg",
+            "icon": "fas fa-laptop",
+            "product_count": 15,
+            "status": "active"
+        },
+        {
+            "id": 2,
+            "name": "Smartphones",
+            "slug": "smartphones",
+            "description": "Latest smartphones and mobile devices",
+            "image": "smartphones-category.jpg",
+            "icon": "fas fa-mobile-alt",
+            "product_count": 12,
+            "status": "active"
+        },
+        {
+            "id": 3,
+            "name": "Accessories",
+            "slug": "accessories",
+            "description": "Phone cases, headphones, chargers and more",
+            "image": "accessories-category.jpg",
+            "icon": "fas fa-headphones",
+            "product_count": 25,
+            "status": "active"
+        },
+        {
+            "id": 4,
+            "name": "Tablets",
+            "slug": "tablets",
+            "description": "Portable tablets for entertainment and work",
+            "image": "tablets-category.jpg",
+            "icon": "fas fa-tablet-alt",
+            "product_count": 8,
+            "status": "active"
+        }
+    ]
+}
